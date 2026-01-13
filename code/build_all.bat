@@ -4,7 +4,7 @@ REM Build Everything
 ECHO "Building everything..."
 
 
-PUSHD engine
+PUSHD kenaz
 CALL build.bat
 POPD
 IF %ERRORLEVEL% NEQ 0 (echo Error:%ERRORLEVEL% && exit)

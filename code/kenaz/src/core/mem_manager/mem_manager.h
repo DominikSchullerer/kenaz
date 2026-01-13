@@ -33,6 +33,6 @@
         const mem_manager_fns_t *fns;
     };
 
-    K_API bool8_t std_mem_manager_init(mem_manager_t* mem_manager, logger_t *logger);
+    bool8_t std_mem_manager_init(mem_manager_t* mem_manager, logger_t *logger);
 
 #endif // _MEM_MANAGER_H_

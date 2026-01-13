@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/code/engine/src/**"
+                "${workspaceFolder}/code/kenaz/src/"
             ],
             "defines": [
                 "_DEBUG",

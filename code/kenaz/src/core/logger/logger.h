@@ -42,7 +42,7 @@
         const logger_fns_t *fns;
     };
 
-    K_API bool8_t bootstrap_logger_init(logger_t *logger);
+    bool8_t bootstrap_logger_init(logger_t *logger);
 
 
     #define K_LOG_FATAL(logger, msg, ...)                                       \
